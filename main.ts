@@ -1,3 +1,4 @@
+// Prints the entry in entry.txt — the program's whole job.
 import { readFileSync as read } from "node:fs";
 import { fileURLToPath as toPath } from "node:url";
 import { dirname as dirOf, join as joinPath } from "node:path";
